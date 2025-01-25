@@ -40,12 +40,12 @@ def get_size(size):
         size /= 1024.0
     return "%.2f %s" % (size, units[i])
 
-def formate_file_name(file_caption):
+def formate_file_name(file_name):
     chars = ["[", "]", "(", ")"]
     for c in chars:
-        file_caption.replace(c, "")
-    file_caption = ' ' + ' '.join(filter(lambda x: not x.startswith('http') and not x.startswith('@') and not x.startswith('www.'), file_name.split()))
-    return file_caption
+        file_name.replace(c, "")
+    file_name = ' ' + ' '.join(filter(lambda x: not x.startswith('http') and not x.startswith('@') and not x.startswith('www.'), file_name.split()))
+    return file_name
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -228,7 +228,7 @@ async def start(client, message):
         msg = await client.get_messages(LOG_CHANNEL, int(decode_file_id))
         if msg.media:
             media = getattr(msg, msg.media.value)
-            title = formate_file_name(media.file_caption)
+            title = formate_file_name(media.file_name)
             size=get_size(media.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
