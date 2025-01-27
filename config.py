@@ -18,13 +18,13 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-API_ID = int(environ.get("API_ID", "23631217"))
-API_HASH = environ.get("API_HASH", "567c6df308dc6901790309499f729d12")
+API_ID = int(environ.get("API_ID", "16402669"))
+API_HASH = environ.get("API_HASH", "e50b6c6e9dc8077ec3e9db0e565631e4")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/afb26904467e6d288066d-e47db06938c1b2426d.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6139759254').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "MRN_File_Sharing_Bot") # without @
+PICS = (environ.get('PICS', 'https://graph.org/file/6342f9ae8571659b764d2-adb46a36274462e7f5.jpg')).split() # Bot Start Picture
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6139759254 6570474744').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "AVFilesStorebot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
