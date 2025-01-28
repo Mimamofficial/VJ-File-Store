@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "16402669"))
 API_HASH = environ.get("API_HASH", "e50b6c6e9dc8077ec3e9db0e565631e4")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/6342f9ae8571659b764d2-adb46a36274462e7f5.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://graph.org/file/333a40eb6bc032631c14f-b5c2fd6843ba3840f7.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6139759254 6570474744').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "AVFilesStorebot") # without @
 PORT = environ.get("PORT", "8080")
