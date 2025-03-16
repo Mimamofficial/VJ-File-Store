@@ -53,7 +53,7 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 
 🇮🇳 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/AV_King1>ཧᜰ꙰ꦿ➢𝐀𝐛𝔥𝕚ŞℍＥҜ༒</a>
 
-👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/Movies_World_Support_Group>Movies World |「 Support Group 」</a>
+👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/+4LbUxZR-F6NmODQ1>Movies World |「 Support Group 」</a>
 
 📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/MOVIES_WORLDZS>𝙰.𝚅 𝙼𝙾𝚅𝙸𝙴𝚂 𝚆𝙾𝚁𝙻𝙳</a></b>
 """
